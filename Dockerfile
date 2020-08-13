@@ -1,4 +1,4 @@
-ROM ubuntu
+FROM ubuntu
 
 ENV TZ=Asia
 
