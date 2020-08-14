@@ -4,6 +4,7 @@ ENV TZ=Asia
 
 ADD sample.png ./sample.png
 ADD entrypoint.sh ./entrypoint.sh
+ADD example.jpg ./example.jpg
 
 
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
